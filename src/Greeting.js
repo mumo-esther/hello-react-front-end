@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
-import { useSelector, useDispatch } from "react-redux";
-import { fetchRandomGreeting } from "./store/actions";
+import React, { useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import fetchRandomGreeting from './store/actions';
 
 function Greeting() {
   const randomGreeting = useSelector((state) => state.randomGreeting);
